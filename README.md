@@ -1,7 +1,7 @@
 # IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial
 
 
-Steps below mirror the official guide and add Windows‑specific checks. (Isaac Sim)
+Steps below mirror the official guide and add Windows‑specific checks. (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html)
 
 Ground rules
 Do not use WSL for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
