@@ -142,6 +142,8 @@ Expected outputs
 
 ### 8.2 Run Quick RL example 
 
+Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
+
 - Run it headless: It will run the RL script but not open the IsaacSim application 
 ```isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0 --headless```
 
