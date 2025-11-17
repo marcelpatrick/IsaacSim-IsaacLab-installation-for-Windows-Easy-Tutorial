@@ -32,7 +32,7 @@ Reboot if this is your first time enabling it.
 ```winget install --id Git.Git -e```
 
 ### 2.2 A Python env manager:
-- Download “Miniconda3 Windows x86_64” and install: https://www.anaconda.com/docs/getting-started/miniconda/install?utm_source=chatgpt.com . Accept defaults.
+- Download “Miniconda3 Windows x86_64” and install: https://www.anaconda.com/docs/getting-started/miniconda/install. Accept defaults.
 
 - official instructions. ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
