@@ -61,15 +61,8 @@ pip install -U torch==2.7.0 torchvision==0.22.0 --index-url https://download.pyt
 
 - Quick test:
 ```
-Python 
-import torch 
-print("Torch", torch.__version__, "CUDA available:", torch.cuda.is_available())
-if torch.cuda.is_available():
-    print("GPU:", torch.cuda.get_device_name(0)) 
+python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
 ```
-
-- Expected output: 
-```GPU: NVIDIA GeForce RTX 4090 Laptop GPU``` (or whatever your GPU specs are in your machine)
 
 If everything went as expected up to here: 
 - PyTorch installed correctly (import torch worked).
