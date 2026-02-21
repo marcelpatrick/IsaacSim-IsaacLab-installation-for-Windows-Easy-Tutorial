@@ -145,17 +145,16 @@ Expected outputs
 
 Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
 
-- Run it headless: It will run the RL script but not open the IsaacSim application 
+Run it headless: It will run the RL script but not open the IsaacSim application 
 ```
 isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0 --headless
 ```
-
-- Run it full: It will run the RL script AND open the IsaacSim application showind the progress there. Takes longer
+Run it full: It will run the RL script AND open the IsaacSim application showind the progress there. Takes longer
 ```
 isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0
 ```
 
-- Run other demos available in the repo:
+Run other demos available in the repo:
 - ```python scripts\tutorials\05_controllers\run_diff_ik.py```
 - ```python scripts\tutorials\01_assets\run_deformable_object.py```
 - ```python scripts\tutorials\02_scene\create_scene.py```
