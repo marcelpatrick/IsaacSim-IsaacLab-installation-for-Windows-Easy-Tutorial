@@ -114,22 +114,26 @@ cd IsaacLab
 Source: ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
 ### 7.2 Install Isaac Lab extras using the Windows helper:
-```isaaclab.bat --install``` 
+```
+isaaclab.bat --install
+pip install click==8.1.7
+``` 
 
 This installs Isaac Lab’s extensions and optional RL libraries.
 
 ## Step 8 — Smoke tests for Isaac Lab
 
 ### 8.1 Minimal sim window:
-```isaaclab.bat -p scripts\tutorials\00_sim\create_empty.py``` 
-
+```
+isaaclab.bat -p scripts\tutorials\00_sim\create_empty.py
+``` 
 - A black viewport window should appear. Close with Ctrl+C or stop in the terminal.
 
  Source: ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
 Expected outputs
 - it opens the isaacsim application window showing just a black screen on the view port.
-- PowerShell logs : 
+- anaconda prompt logs : 
 ```
 [22.704s] app ready
 [27.287s] Simulation App Startup Complete
@@ -142,10 +146,14 @@ Expected outputs
 Navigate to ```C:\Users\[YOUR USER]\IsaacLab```
 
 - Run it headless: It will run the RL script but not open the IsaacSim application 
-- ```isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0 --headless```
+```
+isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0 --headless
+```
 
 - Run it full: It will run the RL script AND open the IsaacSim application showind the progress there. Takes longer
-- ```isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0```
+```
+isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-v0
+```
 
 - Run other demos available in the repo:
 - ```python scripts\tutorials\05_controllers\run_diff_ik.py```
