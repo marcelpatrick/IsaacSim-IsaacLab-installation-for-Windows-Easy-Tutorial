@@ -157,8 +157,10 @@ isaaclab.bat -p scripts\reinforcement_learning\rsl_rl\train.py --task=Isaac-Ant-
 ```
 
 Run other demos available in the repo:
-```python scripts\tutorials\05_controllers\run_diff_ik.py```
-```python scripts\tutorials\01_assets\run_deformable_object.py```
-```python scripts\tutorials\02_scene\create_scene.py```
-```python scripts\tutorials\03_envs\create_quadruped_base_env.py```
-```isaaclab.bat -p scripts\demos\h1_locomotion.py```
+```
+python scripts\tutorials\05_controllers\run_diff_ik.py
+python scripts\tutorials\01_assets\run_deformable_object.py
+python scripts\tutorials\02_scene\create_scene.py
+python scripts\tutorials\03_envs\create_quadruped_base_env.py
+isaaclab.bat -p scripts\demos\h1_locomotion.py
+```
