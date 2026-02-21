@@ -77,16 +77,16 @@ If everything went as expected up to here:
 
 Expected output (depends on your machine configuration)
 
-- Driver 581.57 (✅ green)
-Perfect — your Windows NVIDIA driver is new enough and recognized.
+- Driver Version (✅ green)
+ your Windows NVIDIA driver is new enough and recognized.
 
-- GPU: RTX 4090 Laptop GPU (✅ green)
+- GPU: It will show your GPU version (✅ green)
 Isaac Sim can see and talk to your GPU correctly through Vulkan + CUDA.
 
-- VRAM 17 GB (light green)
+- VRAM (light green)
 GPU memory detected and usable; “light green” just shows a normal range for mobile 4090s.
 
-- RAM 34 GB (🟧 orange)
+- RAM GB (🟧 orange)
 Informational warning — the check recommends ≥ 64 GB for very heavy RTX simulations, but 32–34 GB is still fine for learning, tutorials, and medium workloads. It’s not an error.
 
 - CPU Governor “not available”
