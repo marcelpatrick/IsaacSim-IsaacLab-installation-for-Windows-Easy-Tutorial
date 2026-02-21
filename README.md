@@ -47,13 +47,17 @@ python -m pip install --upgrade pip
 
 ## Step 4 — Install Isaac Sim 5.1 
 - In the conda activated env:
-```pip install "isaacsim[all,extscache]==5.1.0" --extra-index-url https://pypi.nvidia.com``` 
+```
+pip install "isaacsim[all,extscache]==5.1.0" --extra-index-url https://pypi.nvidia.com
+``` 
 
 Source from the docs. ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
 ## Step 5 — Install PyTorch with CUDA for Windows
 - In the same env:
-```pip install -U torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128``` 
+```
+pip install -U torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
+``` 
 
 - Quick test:
 ```
