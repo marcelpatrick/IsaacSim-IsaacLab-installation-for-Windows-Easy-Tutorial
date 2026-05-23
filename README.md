@@ -30,7 +30,9 @@ Reboot if this is your first time enabling it.
 ### 2.1 Git (for cloning Isaac Lab): 
 - Download and install Git for Windows or use winget:
 ```winget install --id Git.Git -e```
-
+- update pip install
+``` python -m pip install --upgrade pip```
+ 
 ### 2.2 A Python env manager:
 - Download “Miniconda3 Windows x86_64” and install: https://www.anaconda.com/docs/getting-started/miniconda/install. Accept defaults.
 
@@ -42,7 +44,6 @@ Reboot if this is your first time enabling it.
 ```
 conda create -n env_isaaclab python=3.11 -y 
 conda activate env_isaaclab 
-python -m pip install --upgrade pip 
 ```
 
 ## Step 4 — Install Isaac Sim 5.1 
