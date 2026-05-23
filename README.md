@@ -5,7 +5,7 @@
 - Do not use WSL for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
 - Use Python 3.11 for Isaac Sim 5.x. Other versions will fail. 
 
--> Steps below mirror the official guide and add Windows‑specific checks. (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html)
+-> This tutorial is inspired by the official tutorial (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) but explain all the steps in a more beginner-friendly way.
 
 ## Step 0 — Verify your GPU and driver 
 - Why: Isaac Sim 5.1 was tested on Windows driver 580.88. Older drivers can fail or disable RTX features. 
