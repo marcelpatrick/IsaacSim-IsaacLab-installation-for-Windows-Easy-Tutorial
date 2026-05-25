@@ -171,3 +171,6 @@ python scripts\tutorials\02_scene\create_scene.py
 python scripts\tutorials\03_envs\create_quadruped_base_env.py
 isaaclab.bat -p scripts\demos\h1_locomotion.py
 ```
+#### Errors:
+If you get something like couldn’t access: MyIsaacLabProject2 make sure the project was installed (refer to “2. Install the Project” in https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md) 
+If you get something like ``gymnasium.error.VersionNotFound: Environment version `v32` for environment `Template-Myisaaclabproject2` doesn't exist.`` OR  ``gymnasium.error.NameNotFound: Environment `Template-Myisaasdfsdfg` doesn't exist.`` make sure your Task ID is correct. -> Copy it from “C:\Users\myali\MyIsaacLabProject2\source\MyIsaacLabProject2\MyIsaacLabProject2\tasks\manager_based\myisaaclabproject2\__init__.py”
