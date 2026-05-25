@@ -7,6 +7,8 @@
 
 -> This tutorial is inspired by the official tutorial (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) but explain all the steps in a more beginner-friendly way.
 
+# IsaacSIM
+
 ## Step 0 — Verify your GPU and driver 
 - Why: Isaac Sim 5.1 was tested on Windows driver 580.88. Older drivers can fail or disable RTX features. 
 - How (on windows PowerShell): ```nvidia-smi```
@@ -103,6 +105,8 @@ Close it after the checks.
 - On first launch, reply Yes to the Omniverse EULA prompt (one time)
 
 - The first run can take several minutes while extensions download and cache. This is expected.  
+
+# IsaacLab
 
 ## Step 7 — Install Isaac Lab from source
 
