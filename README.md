@@ -108,6 +108,8 @@ Close it after the checks.
 
 # IsaacLab
 
+- Inside the same conda env:
+
 ## Step 7 — Install Isaac Lab from source
 
 ### 7.1 Clone the repo:
