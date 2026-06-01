@@ -2,20 +2,20 @@
 
 
 ## Ground rules
-- Do not use WSL for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
+- Do not use WSL (Windows Subsystem for Linux) for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
 - Use Python 3.11 for Isaac Sim 5.x. Other versions will fail. 
 
--> This tutorial is inspired by the official tutorial (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) but explain all the steps in a more beginner-friendly way.
+-> This tutorial is inspired by the official tutorial (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) but it explains all the steps in a more beginner-friendly way.
 
 # IsaacSIM
 
 ## Step 0 — Verify your GPU and driver 
 - Why: Isaac Sim 5.1 was tested on Windows driver 580.88. Older drivers can fail or disable RTX features. 
-- How (on windows PowerShell): ```nvidia-smi```
+- How: on Windows PowerShell type ```nvidia-smi```
 
-- Check the Driver Version in the output. If it’s < 580.88, update via GeForce Experience or NVIDIA’s driver page. Then reboot.
+- Check the Driver Version in the output. If it’s < 580.88, update via GeForce Experience or NVIDIA’s driver page https://www.nvidia.com/en-us/drivers. Then reboot.
   
-- Optional on laptops with Intel + NVIDIA: force high‑performance GPU for Python and Isaac Sim in Settings → System → Display → Graphics by adding the app and choosing High performance. (Microsoft Learn)
+- Optional: on laptops with Intel + NVIDIA: force high‑performance GPU for Python and Isaac Sim in Settings → System → Display → Graphics by adding the IsaacSim app, clicking on "Add desktop app" and choosing "High performance" on settings. (Microsoft Learn)
 
 ## Step 1 — Enable long file paths (Windows one‑time setup) 
 - Why: Long paths can break installs. 
