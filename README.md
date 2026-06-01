@@ -9,9 +9,9 @@
 
 # IsaacSIM
 
-Video Tutorials showing IsaacSim installation steps from 0 to 6
-
-
+Video Tutorials showing IsaacSim installation steps from 0 to 6:
+https://youtu.be/6NlJqvWBhg4
+https://youtu.be/E6tgh798AYU
 
 
 ## Step 0 — Verify your GPU and driver 
