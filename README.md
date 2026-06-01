@@ -26,7 +26,6 @@
 
 Reboot if this is your first time enabling it.
 
-
 ## Step 2 — Install the prerequisites
 
 ### 2.1 Git (for cloning Isaac Lab): 
@@ -36,13 +35,14 @@ Reboot if this is your first time enabling it.
 ``` python -m pip install --upgrade pip```
  
 ### 2.2 A Python env manager:
-- Download “Miniconda3 Windows x86_64” and install: https://www.anaconda.com/docs/getting-started/miniconda/install. Accept defaults.
+- Download “Miniconda3 Windows x86_64” and install it: https://www.anaconda.com/docs/getting-started/miniconda/install > https://www.anaconda.com/download. Accept defaults.
+
+- to confirm installation, go to your Windows search bar, type in Anaconda Prompt, open it to spawn a fresh Anaconda CLI. In your (base) environment, type `conda list`. You should see the list of resources.
 
 - official instructions. ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
-## Step 3 — Create a clean Python 3.11 environment
-
-- Conda: (on a conda cli: click on Windows search option, type “anaconda prompt”, click on it to open the cli)
+## Step 3 - Create a clean Python 3.11 environment
+- on a conda cli: click on the Windows search option, type “anaconda prompt”, click on it to open the cli
 ```
 conda create -n env_isaaclab python=3.11 -y 
 conda activate env_isaaclab 
