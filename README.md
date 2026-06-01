@@ -10,8 +10,8 @@
 # IsaacSIM
 
 Video Tutorials showing IsaacSim installation steps from 0 to 6:
-https://youtu.be/6NlJqvWBhg4
-https://youtu.be/E6tgh798AYU
+- Video 1: https://youtu.be/6NlJqvWBhg4
+- Video 2: https://youtu.be/E6tgh798AYU
 
 
 ## Step 0 — Verify your GPU and driver 
@@ -26,8 +26,8 @@ https://youtu.be/E6tgh798AYU
 - Why: Long paths can break installs. 
 - How (on PowerShell as Admin): click on Windows search option, search for powershell, don't open it. Instead, click on the app with the right button and click on open as admin. Type:
   
-```New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" ```
-``` -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force```
+- ```New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" ```
+- ``` -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force```
 
 Reboot if this is your first time enabling it.
 
