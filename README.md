@@ -9,6 +9,11 @@
 
 # IsaacSIM
 
+Video Tutorials showing IsaacSim installation steps from 0 to 6
+
+
+
+
 ## Step 0 — Verify your GPU and driver 
 - Why: Isaac Sim 5.1 was tested on Windows driver 580.88. Older drivers can fail or disable RTX features. 
 - How: on Windows PowerShell type ```nvidia-smi```
