@@ -19,9 +19,9 @@
 
 ## Step 1 — Enable long file paths (Windows one‑time setup) 
 - Why: Long paths can break installs. 
-- How (on PowerShell as Admin): click on Windows search option, search for powershell, don't open it. Instead, click on the app with the right button and click on open as admin. 
+- How (on PowerShell as Admin): click on Windows search option, search for powershell, don't open it. Instead, click on the app with the right button and click on open as admin. Type:
+  
 ```New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" ```
-
 ``` -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force```
 
 Reboot if this is your first time enabling it.
