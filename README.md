@@ -113,26 +113,28 @@ Close it after the checks.
 
 # IsaacLab
 
-- Inside the same conda env:
+-> Before proceeding with the next steps, **make sure you activate the previously created conda environment and that you are inside your user folder**. 
 
 ## Step 7 — Install Isaac Lab from source
 
 ### 7.1 Clone the repo:
 . Clone the IsaacLab GitHub repository into your user folder. 
+. What it does is simply copy NVIDIA's original IsaacLab project (with all its folders and Python scripts) to your local folder inside your environment.
+. Make sure you are inside your user path (where you had previously installed IsaacSim). 
 ```
-cd %USERPROFILE%
 git clone https://github.com/isaac-sim/IsaacLab.git 
 cd IsaacLab
 ```
 Source: ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
-### 7.2 Install Isaac Lab extras using the Windows helper:
+### 7.2 Install Isaac Lab and libraries:
 ```
 isaaclab.bat --install
 pip install click==8.1.7
 ``` 
 
-This installs Isaac Lab’s extensions and optional RL libraries.
+. `isaaclab.bat --install` registers the cloned IsaacLab folders and files as a Python library, so that Python can find them and you can import them into your local code with `import isaaclab`. 
+. `pip install click==8.1.7` installs Isaac Lab’s extensions and optional RL libraries.
 
 ## Step 8 — Smoke tests for Isaac Lab
 
