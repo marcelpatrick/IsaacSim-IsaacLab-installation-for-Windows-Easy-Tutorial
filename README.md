@@ -132,11 +132,15 @@ Source: ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/inst
 . Inside [YourUser]\IsaacLab:
 ```
 isaaclab.bat --install
-pip install click==8.1.7
 ``` 
 
 . `isaaclab.bat --install` registers the cloned IsaacLab folders and files as a Python library, so that Python can find them and you can import them into your local code with `import isaaclab`. 
-. `pip install click==8.1.7` installs Isaac Lab’s extensions and optional RL libraries.
+
+- Install auxiliary libraries in their correct versions - compatible with IsaacSim 5.1:
+```
+pip install click==8.1.7
+pip install h5py==3.15.1 tensordict==0.11.0 pandas==3.0.1
+```
 
 ## Step 8 — Smoke tests for Isaac Lab
 
