@@ -122,12 +122,14 @@ Close it after the checks.
 . What it does is simply copy NVIDIA's original IsaacLab project (with all its folders and Python scripts) to your local folder inside your environment.
 . Make sure you are inside your user path (where you had previously installed IsaacSim). 
 ```
+cd %userprofile%
 git clone https://github.com/isaac-sim/IsaacLab.git 
 cd IsaacLab
 ```
 Source: ([Isaac Sim](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html))
 
 ### 7.2 Install Isaac Lab and libraries:
+. Inside [YourUser]\IsaacLab:
 ```
 isaaclab.bat --install
 pip install click==8.1.7
