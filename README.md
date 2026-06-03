@@ -118,6 +118,7 @@ Close it after the checks.
 ## Step 7 — Install Isaac Lab from source
 
 ### 7.1 Clone the repo:
+. Clone the IsaacLab GitHub repository into your user folder. 
 ```
 cd %USERPROFILE%
 git clone https://github.com/isaac-sim/IsaacLab.git 
