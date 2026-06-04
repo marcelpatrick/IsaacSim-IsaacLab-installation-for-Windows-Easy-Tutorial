@@ -138,8 +138,7 @@ isaaclab.bat --install
 
 - Install auxiliary libraries in their correct versions - compatible with IsaacSim 5.1:
 ```
-pip install click==8.1.7
-pip install h5py==3.15.1 tensordict==0.11.0 pandas==3.0.1
+pip install h5py==3.15.1 tensordict==0.11.0 pandas==3.0.1 click==8.1.7
 ```
 
 ## Step 8 — Smoke tests for Isaac Lab
