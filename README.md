@@ -1,5 +1,10 @@
 # IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial
 
+Video Tutorials showing the IsaacSim installation: steps 0-6:
+- Video 1: https://youtu.be/6NlJqvWBhg4
+- Video 2: https://youtu.be/E6tgh798AYU
+Video Tutorial showing the IsaacLab installation: steps 7-8
+- Video 3: 
 
 ## Ground rules
 - Do not use WSL (Windows Subsystem for Linux) for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
@@ -8,11 +13,6 @@
 -> This tutorial is inspired by the official tutorial (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) but it explains all the steps in a more beginner-friendly way.
 
 # IsaacSIM
-
-Video Tutorials showing IsaacSim installation steps from 0 to 6:
-- Video 1: https://youtu.be/6NlJqvWBhg4
-- Video 2: https://youtu.be/E6tgh798AYU
-
 
 ## Step 0 — Verify your GPU and driver 
 - Why: Isaac Sim 5.1 was tested on Windows driver 580.88. Older drivers can fail or disable RTX features. 
