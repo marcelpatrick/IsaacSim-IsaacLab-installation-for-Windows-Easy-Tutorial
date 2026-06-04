@@ -1,10 +1,10 @@
 # IsaacSim-IsaacLab-installation-for-Windows-Easy-Tutorial
 
-Video Tutorials showing the IsaacSim installation: steps 0-6:
-- Video 1: https://youtu.be/6NlJqvWBhg4
-- Video 2: https://youtu.be/E6tgh798AYU
-Video Tutorial showing the IsaacLab installation: steps 7-8
-- Video 3: 
+- Video Tutorials showing the IsaacSim installation: steps 0-6:
+  - Video 1: https://youtu.be/6NlJqvWBhg4
+  - Video 2: https://youtu.be/E6tgh798AYU
+- Video Tutorial showing the IsaacLab installation: steps 7-8
+  - Video 3: https://youtu.be/8XecEL5LvPI
 
 ## Ground rules
 - Do not use WSL (Windows Subsystem for Linux) for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
