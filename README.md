@@ -8,18 +8,21 @@
 
 ## Ground rules
 - Do not use WSL (Windows Subsystem for Linux) for Isaac Sim/Isaac Lab. Run everything in Windows Terminal or PowerShell.
-- Use Python 3.11 for Isaac Sim 5.x. Other versions will fail. 
+- Use Python 3.11 for Isaac Sim 5.x. Other versions will fail.
+- This tutorial uses IsaacSim 5.1, which works with Nvidia GPU Driver version 580/581. Anything much lower or above this (eg: 595 - 610...) will make IsaacSim crash due to compatibility issues. 
 
 -> This tutorial is inspired by the official tutorial (Isaac Sim: https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) but it explains all the steps in a more beginner-friendly way.
 
 # IsaacSIM
 
 ## Step 0 — Verify your GPU and driver 
-- Why: Isaac Sim 5.1 was tested on Windows driver 580.88. Older drivers can fail or disable RTX features. 
+- Why: Isaac Sim 5.1 was tested on Windows driver 580/581. Different driver versions can fail or disable RTX features. 
 - How: on Windows PowerShell type ```nvidia-smi```
 
-- Check the Driver Version in the output. If it’s < 580.88, update via GeForce Experience or NVIDIA’s driver page https://www.nvidia.com/en-us/drivers. Then reboot.
-  
+- Check the Driver Version in the output. If it’s different from 580/581, update or downgrade via GeForce Experience or NVIDIA’s driver page https://www.nvidia.com/en-us/drivers. Then reboot.
+  - Go to https://www.nvidia.com/en-us/drivers > select Manual Driver Search > input your computer specs > search for drivers 580/581 > download it > install it > reboot computer
+  - After reboot, open Windows Powershell as admin (right-click on its icon and select "admin"), run command `nvidia-smi`. This should output the driver's specs and version should read 580/581
+      
 - Optional: on laptops with Intel + NVIDIA: force high‑performance GPU for Python and Isaac Sim in Settings → System → Display → Graphics by adding the IsaacSim app, clicking on "Add desktop app" and choosing "High performance" on settings. (Microsoft Learn)
 
 ## Step 1 — Enable long file paths (Windows one‑time setup) 
