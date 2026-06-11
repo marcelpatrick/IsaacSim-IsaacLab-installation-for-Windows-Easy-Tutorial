@@ -21,7 +21,7 @@
 
 - Check the Driver Version in the output. If it’s different from 580/581, update or downgrade via GeForce Experience or NVIDIA’s driver page https://www.nvidia.com/en-us/drivers. Then reboot.
   - Go to https://www.nvidia.com/en-us/drivers > select Manual Driver Search > input your computer specs > search for drivers 580/581 > download it > install it >
-    - Choose the clean-install option
+    - Choose NVIDIA Graphics Driver only
     - Choose Custom (Advanced)
     - You'll see a list of components with checkboxes. Leave them all checked, and at the bottom tick the box that says "Perform a clean installation."
     - reboot computer
